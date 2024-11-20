@@ -1,0 +1,49 @@
+# Query: parking_management
+# ContextLines: 1
+
+9 results - 9 files
+
+booking_process.php:
+  7  $password = ''; // Sesuaikan dengan password MySQL Anda
+  8: $dbname = 'project';
+  9  
+
+booking.php:
+  7  $password = ''; // Sesuaikan dengan password MySQL Anda
+  8: $dbname = 'project';
+  9  
+
+cancel_booking.php:
+  7  $password = ''; // Sesuaikan dengan password MySQL Anda
+  8: $dbname = 'project';
+  9  
+
+get_parking_status.php:
+  5  $password = ''; // ganti dengan password MySQL Anda
+  6: $dbname = 'project';
+  7  
+
+home.php:
+  7  $password = ''; // Sesuaikan dengan password MySQL Anda
+  8: $dbname = 'project';
+  9  
+
+login_process.php:
+  5  $host = 'localhost'; // Ganti dengan host database Anda
+  6: $db = 'project'; // Nama database
+  7  $user = 'root'; // Ganti dengan username database Anda
+
+my_bookings.php:
+  7  $password = ''; // Sesuaikan dengan password MySQL Anda
+  8: $dbname = 'project';
+  9  
+
+register_process.php:
+  4  $password = ""; // Ganti dengan kata sandi MySQL Anda
+  5: $dbname = "project"; // Nama database yang sudah dibuat
+  6  
+
+update_parking_status.php:
+  5  $password = ''; // Sesuaikan dengan password MySQL Anda
+  6: $dbname = 'project';
+  7  

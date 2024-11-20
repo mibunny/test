@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/parkir.jpg'); /* Gambar latar belakang */
+    background-size: cover; /* Sesuaikan ukuran gambar latar belakang */
+    background-position: center; /* Posisikan gambar di tengah */
+    background-attachment: fixed; /* Gambar latar tetap saat scroll */
+    background-repeat: no-repeat; /* Jangan ulang gambar latar */
+    height: 80vh; /* Tinggi halaman */
+    color: white; /* Warna teks */
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex; /* Gunakan flexbox untuk layout */
+    justify-content: space-between; /* Ruang di antara elemen */
+    align-items: center; /* Pusatkan elemen secara vertikal */
+    background-color: rgba(51, 51, 51, 1); /* Latar belakang semi-transparan */
+    padding: 10px 20px; /* Padding untuk navbar */
+    position: fixed; /* Posisi tetap di atas */
+    top: 0; /* Di atas halaman */
+    width: 100%; /* Lebar penuh */
+    z-index: 1000; /* Pastikan di atas elemen lain */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Bayangan untuk visibilitas */
+}
+
+.navbar .logo a {
+    color: white; /* Warna teks logo */
+    font-size: 24px; /* Ukuran font logo */
+    text-decoration: none; /* Tidak ada garis bawah */
+}
+
+.navbar .nav-links {
+    list-style: none; /* Hapus bullet point dari list */
+    display: flex; /* Gunakan flexbox untuk item list */
+    margin: 0; /* Hapus margin default */
+    padding: 0; /* Hapus padding default */
+    flex-wrap: wrap; /* Biarkan item membungkus jika perlu */
+}
+
+.navbar .nav-links li {
+    margin-left: -15px; /* Margin kiri negatif untuk penyesuaian */
+    margin-right: 35px; /* Margin kanan untuk jarak antar item */
+}
+
+.navbar .nav-links li a {
+    color: white; /* Warna teks tautan */
+    text-decoration: none; /* Tidak ada garis bawah */
+    font-size: 16px; /* Ukuran font tautan */
+    padding: 8px 12px; /* Padding untuk area klik yang lebih baik */
+}
+
+.navbar .nav-links li a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+/* Main content styling */
+.main-content {
+    background: rgba(0, 0, 0, 0.6); /* Latar belakang hitam transparan */
+    padding: 50px; /* Padding dalam konten */
+    margin: 100px auto; /* Margin atas dan bawah, auto di kiri-kanan */
+    width: 80%; /* Lebar konten */
+    max-width: 800px; /* Lebar maksimum untuk layar besar */
+    border-radius: 10px; /* Sudut membulat */
+    text-align: center; /* Pusatkan teks */
+}
+
+.main-content h1 {
+    font-size: 36px; /* Ukuran font untuk judul */
+    color: #fff; /* Warna putih untuk judul */
+}
+
+.main-content p {
+    font-size: 18px; /* Ukuran font untuk paragraf */
+    color: #ccc; /* Warna abu-abu untuk teks normal */
+}
